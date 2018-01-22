@@ -33,4 +33,5 @@ CFL condition</a>. That means, it's conditionally stable. <br> <br>
 * Truncation error <br>
 &emsp; A kind of error made by truncating the taylor expansion into finite sum. It converges as dt, ds go to zero.
 
-
+### Conclusion
+&emsp;We use four ways to calculate option price and all of them converges. 

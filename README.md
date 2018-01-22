@@ -5,7 +5,7 @@ Department of Mathematics, National Chiao Tung University <br>
 1001 University Road, Hsinchu, Taiwan 300, ROC <br>
 Jan 8, 2018 <br>
 
-&emsp; In this project, we focused on the numerical performance of different options and used three prevailing discretization schemes to make an extensive analysis of the options considered. We want to solve the Black-Scholes equation in the following three ways to compare the performance and accuracy: forward Euler method, Crank-Nicolson method, and solve a parabolic equation transformed from the Black-Scholes equation. We regard the solution obtained by a binomial tree as the exact solution.
+&emsp; In this project, we focused on the numerical performance of different options and used three prevailing discretization schemes to make an extensive analysis of the options considered. We want to solve the Black-Scholes equation in the following three ways to compare the performance and accuracy: forward Euler method, Crank-Nicolson method, and solve a parabolic equation transformed from the Black-Scholes equation. We regarded the solution obtained by a binomial tree as the exact solution.
 
 ### An introduction to Black-Scholes equation and options
 &emsp; This is the page of<a href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_equation" title="Title">
@@ -18,9 +18,9 @@ American call</a>.
 
 ### Three ways to solve the Black-Scholes equation
 * Forward Euler method(FD_OptionPricing.m). <br>
-&emsp; A simple, explicit <a href="https://en.wikipedia.org/wiki/Finite_difference" title="Title">
- finite difference method</a> to numerically solve partial differential equations. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
-CFL condition</a>. That means, it's conditionally stable. <br> <br>
+&emsp; A simple and explicit <a href="https://en.wikipedia.org/wiki/Finite_difference" title="Title">
+ finite difference method</a> to numerically solve the partial differential equation. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
+a certain CFL condition</a>. That means, it's conditionally stable. <br> <br>
 * Direct Crank-Nicolson method(CN_OptionPricing.m). <br>
 &emsp; A implicit finite difference method to numerically solve partial differential equations. It's unconditionally stable, but we have to solve a tridiagonal matrix each step. To speed up calculation, we use <a href="https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm" title="Title">Thomas algorithm</a> to deal with the tridiagonal matrix. <br> <br>
 * Crank-Nicolson method for the equaiton under heat-equation transformation(HT_OptionPricing.m). <br>

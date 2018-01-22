@@ -16,5 +16,5 @@ European put</a>, <a href="https://www.investopedia.com/terms/a/americanoption.a
 American call</a>, <a href="https://www.investopedia.com/terms/a/americanoption.asp" title="Title">
 American call</a>. 
 
-
+### Three ways to calculate Black-Scholes equation
 

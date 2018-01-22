@@ -29,7 +29,8 @@ CFL condition</a>. That means, it's conditionally stable. <br> <br>
 ### Error Analysis
 &emsp; The error comes from two place:
 * The maximum of boundary <br>
-&emsp; When we do numerical calculation, we need to set the maximum stock price Smax and calculate in [0, T] X [0, Smax]
+&emsp; When we do numerical calculation, we need to set the maximum stock price Smax and calculate in [0, T] X [0, Smax]. It converges as Smax goes to infinity.
 * Truncation error <br>
-&emsp; A kind of error made by truncating the taylor expansion into finite sum.
-\\(inline\\) $$display$$
+&emsp; A kind of error made by truncating the taylor expansion into finite sum. It converges as dt, ds goes to zero.
+
+

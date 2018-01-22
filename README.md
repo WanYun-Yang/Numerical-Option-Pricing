@@ -17,4 +17,19 @@ American call</a>, <a href="https://www.investopedia.com/terms/a/americanoption.
 American call</a>. 
 
 ### Three ways to calculate Black-Scholes equation
+* Forward difference method(FD_OptionPricing.m). <br>
+&emsp; A simple, explicit <a href="https://en.wikipedia.org/wiki/Finite_difference" title="Title">
+ finite difference method</a> to numerically solve partial differential equations. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
+CFL condition</a>. That means, it's conditionally stable. <br> <br>
+* Direct Crank-Nicolson method(CN_OptionPricing.m). <br>
+&emsp; A implicit finite difference method to numerically solve partial differential equations. It's unconditionally stable, but we have to solve a tridiagonal matrix each step. To speed up calculation, we use <a href="https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm" title="Title">Thomas algorithm</a> to deal with the tridiagonal matrix. <br> <br>
+* Heat Crank-Nicolson method(HT_OptionPricing.m). <br>
+&emsp; See <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/395139424085/Extended%20Abstract.pdf" title="Title">Finite Differences Schemes for Pricing of European and American Options</a>.
 
+### Error Analysis
+&emsp; The error comes from two place:
+* The maximum of boundary <br>
+&emsp; When we do numerical calculation, we need to set the maximum stock price Smax and calculate in [0, T] X [0, Smax]
+* Truncation error <br>
+&emsp; A kind of error made by truncating the taylor expansion into finite sum.
+\\(inline\\) $$display$$

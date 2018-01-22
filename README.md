@@ -33,7 +33,7 @@ a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
 * Local truncation error (LTE) <br>
 &emsp; The error occurs from truncating the Taylor expansion into finite sums. The solution converges as temporal and spatial steps go to zero.
 
-&emsp; Combined the two reasons mentioned above, the maximum absolute error (take L-infinity-norm on the error vector) is about 10<sup>-6</sup>. Though we cannot obtain as accurate as possible, this result is quite adequate for practical purposes.
+&emsp; Combined the two reasons mentioned above, the maximum absolute error (take L^infty-norm on the error vector) is about 10<sup>-6</sup>. Though we cannot obtain as accurate as possible, this result is quite adequate for practical purposes.
 
 ### Conclusion
 &emsp;We use three ways to calculate option price and all of them converge. 

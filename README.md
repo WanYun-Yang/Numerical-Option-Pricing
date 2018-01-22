@@ -35,5 +35,5 @@ a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
 
 &emsp; Combined the two reasons mentioned above, the maximum absolute error (take L^infty-norm on the error vector) is about 10<sup>-6</sup>. Though we cannot obtain as accurate as possible, this result is quite adequate for practical purposes.
 
-### Conclusion
-&emsp;We use three ways to calculate option price and all of them converge. 
+### Main Results
+&emsp; We present a performance ranking and a convergence analysis for each of the three schemes.

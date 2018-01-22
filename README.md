@@ -17,13 +17,13 @@ American call</a>, <a href="https://www.investopedia.com/terms/a/americanoption.
 American call</a>. 
 
 ### Three Ways to Solve the Black-Scholes Equation
-* Forward Euler method(FD_OptionPricing.m). <br>
+* Forward Euler method (FD_OptionPricing.m). <br>
 &emsp; A simple and explicit <a href="https://en.wikipedia.org/wiki/Finite_difference" title="Title">
  finite difference method</a> to numerically solve partial differential equations. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
 a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
-* Direct Crank-Nicolson method(CN_OptionPricing.m). <br>
+* Direct Crank-Nicolson method (CN_OptionPricing.m). <br>
 &emsp; An implicit finite difference method to numerically solve partial differential equations. It's unconditionally stable, but we have to solve a tridiagonal system each step. To speed up the calculation, we use <a href="https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm" title="Title">the Thomas algorithm</a> to deal with the tridiagonal system. <br> <br>
-* Crank-Nicolson method for the equaiton under heat-equation transformation(HT_OptionPricing.m). <br>
+* Crank-Nicolson method for the equaiton under heat-equation transformation (HT_OptionPricing.m). <br>
 &emsp; See <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/395139424085/Extended%20Abstract.pdf" title="Title">Finite Differences Schemes for Pricing of European and American Options</a>, or check Mathematics of Financial Derivatives a Student Introduction, Wilmott, 1995, page 76-81.
 
 ### Error Analysis

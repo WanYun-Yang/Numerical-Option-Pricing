@@ -29,7 +29,7 @@ a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
 ### Error Analysis
 &emsp; The error comes from two places:
 * The upper bound for the spatial boundary <br>
-&emsp; When we do numerical calculations, we need to set the maximum stock price S<sub>max</sub> and obtain the numerical solution in (0, T) X (0, S<sub>max</sub>). The solution converges as S<sub>max</sub> goes to infinity.
+&emsp; When we do numerical calculations, we need to set the maximum stock price S<sub>max</sub> and obtain the numerical solution in (0, T)x(0, S<sub>max</sub>). The solution converges as S<sub>max</sub> goes to infinity.
 * Local truncation error (LTE) <br>
 &emsp; The error occurs from truncating the Taylor expansion into finite sums. The solution converges as temporal and spatial steps go to zero.
 

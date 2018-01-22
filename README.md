@@ -27,7 +27,7 @@ CFL condition</a>. That means, it's conditionally stable. <br> <br>
 &emsp; See <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/395139424085/Extended%20Abstract.pdf" title="Title">Finite Differences Schemes for Pricing of European and American Options</a>.
 
 ### Error Analysis
-&emsp; The error comes from two place:
+&emsp; The error comes from two places:
 * The maximum of boundary <br>
 &emsp; When we do numerical calculation, we need to set the maximum stock price Smax and calculate in [0, T] X [0, Smax]. It converges as Smax goes to infinity.
 * Truncation error <br>

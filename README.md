@@ -17,10 +17,10 @@ American call</a> and <a href="https://www.investopedia.com/terms/a/americanopti
 American call</a>. 
 
 ### Three Ways to Solve the Black-Scholes Equation
-* Forward Euler method (<a href="https://github.com/WanYun-Yang/Numerical-Option-Pricing/blob/master/FD_OptionPricing.m" title="Title"> FD_OptionPricing.m</a>) <br> 
+* Forward Euler method (<a href="https://github.com/WanYun-Yang/Numerical-Option-Pricing/blob/master/FD_OptionPricing.m" title="Title">FD_OptionPricing.m</a>) <br> 
 &emsp; A simple and explicit finite difference method to numerically solve partial differential equations. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
 a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
-* Direct Crank-Nicolson method (CN_OptionPricing.m) <br>
+* Direct Crank-Nicolson method (<a href="https://github.com/WanYun-Yang/Numerical-Option-Pricing/blob/master/CN_OptionPricing.m" title="Title">CN_OptionPricing.m</a>) <br>
 &emsp; An implicit finite difference method to numerically solve partial differential equations. It's unconditionally stable, but we have to solve a tridiagonal system each step. To speed up the calculation, we use the<a href="https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm" title="Title"> Thomas algorithm</a> to deal with the tridiagonal system. <br> <br>
 * Crank-Nicolson method for the equaiton under heat-equation transformation (HT_OptionPricing.m) <br>
 &emsp; See <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/395139424085/Extended%20Abstract.pdf" title="Title">Finite Differences Schemes for Pricing of European and American Options</a>, or check <a href="https://books.google.com.tw/books?id=VYVhnC3fIVEC&printsec=frontcover&dq=Mathematics+of+Financial+Derivatives+a+Student+Introduction&hl=zh-TW&sa=X&ved=0ahUKEwiXuqKWxu3YAhXGlJQKHfz1BgYQ6AEIJjAA#v=onepage&q=Mathematics%20of%20Financial%20Derivatives%20a%20Student%20Introduction&f=false" title="Title">The Mathematics of Financial Derivatives: A Student Introduction</a>, <a href="https://en.wikipedia.org/wiki/Paul_Wilmott" title="Title">Wilmott</a>, 1995, page 76-81.

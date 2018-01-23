@@ -1,7 +1,7 @@
 ## Numerical Option Pricing
 
 <a href="https://www.linkedin.com/in/ting-wei-su-2b508614b/" title="Title">Ting-Wei Su</a>, <a href="https://www.linkedin.com/in/chien-hao-wu-252a77137/" title="Title">Chien-Hao Wu</a>, <a href="https://www.linkedin.com/in/wan-yun-yan-b627b2121/" title="Title">Wan-Yun Yang</a> <br>
-Department of Mathematics, National Chiao Tung University <br>
+<a href="http://www.math.nctu.edu.tw/event/" title="Title">Department of Mathematics</a>, <a href="http://www.nctu.edu.tw/" title="Title">National Chiao Tung University</a> <br>
 1001 University Road, Hsinchu, Taiwan 300, ROC <br>
 Jan 8, 2018 <br>
 

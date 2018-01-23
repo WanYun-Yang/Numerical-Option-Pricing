@@ -13,7 +13,7 @@ Black-Scholes equation</a> on Wikipedia.
 We are keen to examine four different options: <a href="https://www.investopedia.com/terms/e/europeanoption.asp" title="Title">
 European call</a>, <a href="https://www.investopedia.com/terms/e/europeanoption.asp" title="Title">
 European put</a>, <a href="https://www.investopedia.com/terms/a/americanoption.asp" title="Title">
-American call</a>, <a href="https://www.investopedia.com/terms/a/americanoption.asp" title="Title">
+American call</a> and <a href="https://www.investopedia.com/terms/a/americanoption.asp" title="Title">
 American call</a>. 
 
 ### Three Ways to Solve the Black-Scholes Equation

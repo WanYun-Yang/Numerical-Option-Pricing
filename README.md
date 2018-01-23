@@ -17,7 +17,7 @@ American call</a> and <a href="https://www.investopedia.com/terms/a/americanopti
 American call</a>. 
 
 ### Three Ways to Solve the Black-Scholes Equation
-* Forward Euler method (FD_OptionPricing.m) <br>
+* Forward Euler method (<a href="https://github.com/WanYun-Yang/Numerical-Option-Pricing/blob/master/FD_OptionPricing.m" title="Title"> FD_OptionPricing.m</a>) <br> 
 &emsp; A simple and explicit finite difference method to numerically solve partial differential equations. Notice that it must satisfy <a href="https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition" title="Title">
 a certain CFL condition</a>. This means it's conditionally stable. <br> <br>
 * Direct Crank-Nicolson method (CN_OptionPricing.m) <br>
